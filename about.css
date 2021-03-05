@@ -1,0 +1,82 @@
+/*body of the site*/
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url("pic.jpeg");
+}
+/*left class of the header--logo class*/
+
+/*mid class of the header--navigation bar*/
+.mid
+{
+    position: fixed;
+    left: 800px;
+    background-color: black;
+    opacity: 80%;
+    display: block;
+    width: 40%;
+    margin: 18px auto;
+    border: 2px solid yellow;
+    border-radius: 20px;
+}
+/*right class is for buttons....*/
+
+.navbar
+{
+    display: inline-block;
+}
+.navbar li{
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 35px 24px;
+}
+.navbar li a:hover, .navbar li a.active{
+    color:yellow;
+}
+.vision{
+    position: relative;
+    top: 100px;
+    margin-left: 9px;
+   background-color: black;
+   opacity: 60%;
+   height: 500px;
+   width: 700px;
+    color: black;
+    border: 2px solid yellow;
+    border-radius: 30px;
+}
+
+.vision #hVision{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+#vision{
+    font-size: 25px;
+    text-align: center;
+    font-family: cursive;
+    color:white;
+}
+.moto{
+    position: relative;
+    top: 100px;
+    margin-top: 8px;
+    margin-left: 630px;
+   background-color: black;
+   opacity: 60%;
+   height: 500px;
+   width: 700px;
+    color: black;
+    border: 2px solid yellow;
+    border-radius: 30px;
+}
+.moto #motoh{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
